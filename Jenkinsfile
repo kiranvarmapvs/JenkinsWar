@@ -2,11 +2,11 @@ node{
 
    /* def tomcatWeb = 'D:\\Auto_deployment\\apache-tomcat-9.0.30\\apache-tomcat-9.0.30\\webapps' */
    
-   def tomcatWeb = 'C:\\Users\\HP\\OneDrive\\Desktop\\DevOps\\apache-tomcat-7.0.94\\webapps'
+   def tomcatWeb = 'C:\\Users\\Administrator\\Desktop\\apache-tomcat-9.0.54-windows-x64\\apache-tomcat-9.0.54\\webapps'
    
    /* def tomcatBin = 'D:\\Auto_deployment\\apache-tomcat-9.0.30\\apache-tomcat-9.0.30\\bin' */
    
-   def tomcatBin = 'C:\\Users\\HP\\OneDrive\\Desktop\\DevOps\\apache-tomcat-7.0.94\\bin'
+   def tomcatBin = 'C:\\Users\\Administrator\\Desktop\\apache-tomcat-9.0.54-windows-x64\\apache-tomcat-9.0.54\\bin'
    
    def tomcatStatus = ''
    stage('SCM Checkout'){
